@@ -1,0 +1,279 @@
+@charset "utf-8";
+
+
+/*mainVideo*/
+
+.mainVideo{
+    overflow:hidden;
+    width:100%;
+    margin:0 auto;
+    position: relative;
+}
+.mainVideo video{display:block}
+
+
+/*mainBanner*/
+
+.mainBanner{
+    background:url(../images/main/banner.png)no-repeat center center;
+    height:800px;
+    text-align:center;
+}
+.mainBanner a{
+    display:block;
+    height:100%;
+}
+.mainBanner a p{
+    display:none;
+    padding-top:220px;
+    font-size:40px;
+    color:#fff;
+}
+.mainBanner a span{
+    display:none;
+    text-align:center;
+    width:150px;
+    height:150px;
+    line-height:150px;
+    border-radius:50%;
+    background:#fff;
+    margin:0 auto;
+    margin-top:120px;
+    font-weight:bold;
+}
+.mainBanner:hover a{
+    background-color:rgba(50,90,120,0.8);
+}
+.mainBanner:hover a p{
+    display:block;
+}
+.mainBanner:hover a span{
+    display:block;
+}
+
+
+/*con01*/
+
+.con01{
+    padding:150px 0;
+}
+.con01 h2{
+    text-align:center;
+    font-size:40px;
+    padding-bottom:70px;
+}
+.con01Box{
+    float:left;
+    width:580px;
+    margin-right:40px;
+}
+.con01Box:last-child{
+    margin-right:0;
+}
+.con01Txt{
+    display:inline-block;
+    width:580px;
+    height:20px;
+    font-size:18px;
+    padding-bottom:50px;
+    position:relative;
+}
+.con01Txt p span{
+    display:inline-block;
+    text-align:center;
+    color:#fff;
+    font-size:12px;
+    width:40px;
+    padding:2px 0;
+    background:#f26c4f;
+    border-radius:5px;
+    vertical-align:top;
+    margin-left:10px;
+    
+}
+.rightBox .con01Txt p span{
+    background:#ed1c24;
+}
+.moreBtn{
+    position:absolute;
+    top:8px;;
+    right:0;
+    font-size:12px;
+}
+.moreBtn a img{
+    margin-left:5px;
+    margin-bottom:-1px;
+}
+
+.photoBox{
+    display:inline-block;
+}
+.photoBox li{
+    float:left;
+    width:285px;
+    margin-right:10px;
+    margin-bottom:10px;
+}
+.photoBox li a{
+    overflow:hidden;
+    display:block;
+    width:285px;
+    height:285px;
+}
+.photoBox li img{
+    transition:all 0.5s;
+}
+.photoBox li:hover img{
+    transform:scale(1.12);
+}
+.photoBox li:nth-child(2n){
+    margin-right:0;
+}
+.photoBox li p{
+    padding:10px 0;
+}
+
+.leftBox li p{
+    font-size:14px;
+    text-align:center;
+}
+
+.rightBox li{
+    position:relative;
+}
+
+.rightBox li p{
+    display:inline-block;
+    font-size:14px;
+}
+.price{
+    position:absolute;
+    right:0;
+}
+
+.price span{
+    font-size:11px;
+    color:#a0a0a0;
+    margin-right:5px;
+    text-decoration:line-through;
+}
+
+
+/*con02*/
+
+.con02{
+    background:url(../images/main/deli_bg.png)no-repeat center center;
+    background-size:cover;
+    text-align:center;
+    height:700px;
+    padding:60px;
+}
+.con02 h2{
+    font-size:40px;
+    padding:80px 0;
+}
+
+.con02_{
+    position:relative;
+}
+
+.con02Box{
+    display:inline-block;
+    padding:35px 0;
+}
+.con02Box li{
+    float:left;
+    width:242px;
+    padding:0 20px; 
+}
+.con02Box li:last-child{
+    margin-right:0;
+}
+.con02Box li:hover{
+    transform:translate(0,-20px);
+}
+
+.con02Box li a{
+    display:block;
+}
+.car{
+    text-align:center;
+    width:226px;
+    margin-top:170px;
+    animation:car 10s infinite;
+}
+@keyframes car{
+	0%{
+		transform:translate(100px,0)
+	}
+	100%{
+		transform:translate(900px,0)
+	}
+
+}
+.con02Btn{
+    position:absolute;
+    text-indent:-9999px;
+    width:18px;
+    height:35px;
+    top:42%;
+}
+.con02Btn a{
+    display:block;
+}
+.leftBtn{
+    background:url(../images/main/arrow_left.png)no-repeat;
+    left:1%;
+}
+.rightBtn{
+    background:url(../images/main/arrow_right.png)no-repeat;
+    right:1%;
+}
+
+
+/*con03*/
+
+.con03{
+    padding:70px 0;
+}
+
+.con03 h2{
+    text-align:center;
+    font-size:40px;
+    padding:80px 0;
+}
+.con03Box{}
+.con03Box li{
+    float:left;
+    margin-right:5px;
+    margin-bottom:5px;
+}
+.con03Box li:nth-child(2n){
+    margin-right:0;
+}
+.con03Box li:nth-child(5){
+    margin-top:-200px;
+}
+.con03Box li a{
+    height:100%;
+    display:block;
+}
+
+.con03Box li img{
+    display:block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

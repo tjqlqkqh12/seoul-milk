@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+body{
+    min-width:1200px;
+    font-family:'NanumSquareRound';
+    color:#333;
+}
+body,h1,h2,h3,h4,h5,h6,p,dl,dt,dd{
+    margin:0;
+}
+ul{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+a{
+    text-decoration:none;
+    font-family:'NanumSquareRound';
+    color:#333;
+}
+.inner{
+    width:1200px;
+    margin:0 auto;
+}
+.cf::after{
+    content:"";
+    display:block;
+    clear:both;
+}

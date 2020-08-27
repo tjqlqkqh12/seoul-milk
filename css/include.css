@@ -1,0 +1,179 @@
+@charset "utf-8";
+
+
+/*헤더*/
+
+#header{
+    background-color:rgba(255,255,255,0.5);
+    position:absolute;
+    min-width:100%;
+    height:80px;
+    line-height:80px;
+    z-index:1;
+    text-align:center;
+}
+#header h1{
+    position:absolute;
+    background:url(../images/common/logo.png)no-repeat center center;
+    text-indent:-9999px;
+    left:50%;
+    margin-left:-124px;
+    width:248px;
+}
+#header h1 a{
+    display:block;
+}
+
+.gnb{
+    display:inline-block;
+}
+.gnb li{
+    float:left;
+    font-size:18px;
+    font-weight:700;
+    margin:0 20px;
+	transition:all 0.5s;
+}
+.gnb li:hover{
+    transform:rotate(5deg)scale(1.2);
+}
+.gnb li:nth-child(3){
+    margin-right:160px;
+}
+.gnb li:nth-child(4){
+    margin-left:160px;
+}
+
+
+
+.util{
+    position:absolute;
+    top:0;
+    font-size:13px;
+}
+.util li{
+    float:left;
+    margin:0 10px;
+}
+
+.util01{
+    left:1%;
+}
+.util02{
+    right:1%;
+}
+
+.util02 li a img{
+    margin-left:5px;
+    margin-bottom:-2px;
+}
+
+
+
+/*푸터*/
+
+#footer{
+}
+
+    
+.fTop{
+    height:60px;
+    line-height:60px;
+    border-bottom:1px solid #333;
+    border-top:1px solid #333;
+}
+
+.fMenu{
+    float:left;
+}
+.fMenu li{
+    float:left;
+    font-size:13px;
+}
+
+.fMenu li .menuColor{
+    color:#1fb25a;
+}
+.fMenu li:after{
+    content:"";
+    display:inline-block;
+    width:1px;
+    height:10px;
+    background:#333;
+    margin:0 10px;
+    
+}
+.fMenu li:last-child:after{
+    display:none;
+}
+.fMenu li a{}
+
+.fLogo{
+    background:url(../images/common/f_logo.png) no-repeat right center;
+    text-indent:-9999px;
+	width:300px;
+	float:right;
+}
+
+.fBottom{
+    padding:20px 0;
+    position:relative;
+}
+
+.fInfo{
+    display:inline-block;
+    font-size:12px;
+}
+.fInfo p{
+    padding-bottom:10px;
+}
+
+.copy{
+    font-size:11px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.fRight{
+	float:right;
+}
+.fNum{
+    display:block;
+    width:180px;
+    height:30px;
+    line-height:30px;
+    text-align:center;
+    background:#555;
+    color:#fff;
+	margin-left:70px;
+	margin-bottom:30px
+}
+.fNum span{
+    font-size:12px;
+}
+
+.fMark{
+    background:url(../images/common/f_mark.png) no-repeat;
+    text-indent:-9999px;
+    width:250px;
+    height:20px;
+}
+
+.snsBox{
+    padding-top:20px; 
+    text-align:center;
+}
+.fSns{
+    display:inline-block;
+}
+.fSns li{
+    float:left;
+    padding:20px 10px;
+    line-height:25px;
+}
+.fSns li a{}
+.fSns li a img{
+}
+
+
+
+
